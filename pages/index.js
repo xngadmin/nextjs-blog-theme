@@ -11,7 +11,7 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <SEO title=XNG Blog description=XNG Blog for Cybersec />
+      <SEO title="XNG Blog" description="XNG Blog for Cybersec" />
       <Header name={globalData.name} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
