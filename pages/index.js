@@ -13,7 +13,6 @@ export default function Index({ posts, globalData }) {
     <Layout>
       <SEO title="XNG Blog" description="XNG Blog for Cybersec" />
       <Header name="XNG Blog" />
-    <iframe src="https://xnglive.site/header.html" id="testimonials" name="testimonials" allowtransparency="true" onload="this.style.height=(this.contentDocument.getElementById(`masthead`).scrollHeight+2) +'px';" scrolling="no" style="background-color: #4d6d7f; border: 0px; width:100%;"></iframe>
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">For cybersecurity issues</h1>
         <ul className="w-full">
